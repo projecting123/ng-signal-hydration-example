@@ -1,0 +1,11 @@
+<ul>
+    <li><a routerLink="/">Home page</a></li>
+    <li><a routerLink="/users">Users page</a></li>
+    <li><a routerLink="/hydration">Hydration page</a></li>
+    <li><a routerLink="/signal">Signal</a></li>
+</ul>
+<router-outlet></router-outlet>
+
+<!-- model signal for parent-child relationship -->
+<app-inputs [(modelInputvalue)]="modelValueFromParent"></app-inputs>
+<p>Value from Parent Component: {{modelValueFromParent}}</p>

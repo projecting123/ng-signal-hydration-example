@@ -1,0 +1,20 @@
+
+
+ul{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    color: green;
+    text-decoration: none;
+}
+

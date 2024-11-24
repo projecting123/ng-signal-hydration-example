@@ -1,0 +1,6 @@
+.user-card{
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 1rem;
+    border-radius: 10px;
+}
